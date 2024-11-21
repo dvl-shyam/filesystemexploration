@@ -18,8 +18,11 @@ func main() {
 	case "search":
 		searchFile()
 	case "copy":
+		copying()
 	case "move":
+		move()
 	case "delete":
+		delete()
 	default:
 		fmt.Println("Unknown Command", os.Args[1])
 	}
