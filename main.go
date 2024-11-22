@@ -11,7 +11,6 @@ func main() {
 		fmt.Println("Usage: fileman <command> [options]")
 		return
 	}
-	fmt.Println(os.Args)
 	switch os.Args[1] {
 	case "list":
 		ListFiles()

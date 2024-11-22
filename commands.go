@@ -28,7 +28,6 @@ func ListFiles() {
 			fmt.Println("[FILE]", file.Name())
 		}
 	}
-
 }
 
 func searchFile() {
@@ -57,7 +56,6 @@ func searchFile() {
 	} else if !found {
 		fmt.Println("No file found")
 	}
-
 }
 
 func copyDir(srcDir, destDir string) error {
@@ -90,6 +88,7 @@ func copyDir(srcDir, destDir string) error {
 
 	return nil
 }
+
 func copyFile(src, dest string) error {
 	source, err := os.Open(src)
 	if err != nil {
