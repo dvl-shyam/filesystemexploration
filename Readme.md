@@ -12,7 +12,7 @@ To List Files and Directories
 ```
 
 ```bash
-To List Search File and Directories
+To Search File and Directories
 
  go run main.go commands.go search -path {Path to directory or a file}
 
