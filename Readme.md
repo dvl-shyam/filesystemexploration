@@ -1,8 +1,7 @@
-```bash
-File System Exploration
-```
+#File System Exploration
 
-# Commands To Interact
+
+# ***Commands To Interact***
 
 ```bash
 To List Files and Directories
